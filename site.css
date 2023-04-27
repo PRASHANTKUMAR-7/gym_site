@@ -1,0 +1,98 @@
+/* css reset */
+body{
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background:url("ere.jpg");
+}
+.left{
+    position:absolute;
+    left:5px;
+    top: 20px;
+    display:inline-block;
+    /* border:2px solid red; */
+
+}
+.left img{
+    height:30px;
+    width:110px;
+    filter:invert(100%);
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    display:block;
+    width: 50%;
+    margin: 20px auto;
+    /* border:2px solid blue; */
+
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display:inline-block;
+    font-size:25px;
+
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:13px 32px;
+}
+.navbar li a:hover{
+    text-decoration:underline;
+    color:grey;
+
+}
+.right{
+    position:absolute;
+    right:5px;
+    top: 20px;
+    display:inline-block;
+    /* border:2px solid yellow; */
+    
+}
+.bnt{
+    font-family: 'Dancing Script', cursive;
+    background-color: black;
+    color:white;
+    margin:2px;
+    padding:2px 8px;
+    border:2px solid grey;
+    border-radius: 10px;
+}
+.bnt:hover{
+    background-color: lightblue;
+    color:black;
+    font-style:italic;
+    cursor:pointer;
+}
+.container{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 98px 66px;
+    padding: 8px 28px;
+    width: 40%;
+
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    border: 2px solid black;
+    padding: 4px 105px;
+    margin: 2px auto;
+    font-size: 20px;
+}
+.container button{
+    font-family: 'Dancing Script', cursive;
+    background-color: black;
+    color: white;
+    margin: 13px;
+    padding: 3px 200px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+}
